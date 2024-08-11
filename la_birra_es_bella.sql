@@ -87,3 +87,11 @@ CREATE TABLE Pedidos_Productos (
 );
 
 
+/* RELACIONES atravez de tablas intermedias
+La tabla Usuarios tiene una relación muchos a muchos con la tabla Direcciones.  
+La tabla Usuarios tiene una relación muchos a muchos con la tabla Roles.
+La tabla Usuarios tiene una relación muchos a muchos con la tabla Tarjetas.
+La tabla Pedidos tiene una relación muchos a uno con la tabla Direcciones. 
+La tabla Pedidos tiene una relación muchos a uno con la tabla Tarjetas.
+La tabla Pedidos tiene una relación muchos a muchos con la tabla Productos. 
+*/
