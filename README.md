@@ -26,6 +26,8 @@ ___
 
 ___
 
+Para implementar las relaciones descritas, se necesitarán varias tablas intermedias y claves foráneas para establecer las conexiones entre las entidades. A continuación, se detalla cómo se pueden crear estas relaciones en una base de datos relacional.
+___
 
 ### Listado de Tablas (Entidad-Descripcion-Atributos)
 `USUARIOS`  
