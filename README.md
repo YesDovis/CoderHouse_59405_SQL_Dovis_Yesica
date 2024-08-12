@@ -47,7 +47,7 @@ ___
 
 
 `USUARIOS_DIRECCIONES`  
-+indicando las direcciones asociadas a cada usuario.
++ indicando las direcciones asociadas a cada usuario.
 + _Atributos_: id_usuario, id_direccion.
 
 
@@ -82,6 +82,7 @@ ___
 <div aling="center">
     <img src="/img/FK.jpg">
 </div>
+
 ___
 
 
