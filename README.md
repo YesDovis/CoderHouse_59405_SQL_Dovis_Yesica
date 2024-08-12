@@ -75,7 +75,7 @@ ___
 + _Atributos_:id_pedido, id_producto, unidades, precio_venta.
 ___
 
-### Documentación de Tablas
+### Documentación de Tablas > CLAVES > INDICES > ATRIBUTOS > TIPO DE DATOS > DESCRIPCION Y 
 
 <div aling="center">
     <img src="/img/PK.jpg">
@@ -105,6 +105,9 @@ Pedidos y Productos: Un pedido puede contener múltiples productos y un producto
 
 Pedidos y Direcciones: Un pedido se realiza a una sola dirección.
 Pedidos y Tarjetas: Un pedido se paga con una sola tarjeta.
+
+
+___
 
 
 <div aling="center">
