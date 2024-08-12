@@ -25,7 +25,9 @@ ___
 </div>
 
 ___
-**Tablas**
+
+
+**Listado de Tablas (Entidad-Descripcion-Atributos)**
 `USUARIOS`  
 + Esta tabla almacena información básica sobre los usuarios del sistema.
 + _Atributos_: id_usuario / nombre / apellidos / fecha_nacimiento / email / password.
@@ -53,8 +55,30 @@ ___
 + Guarda la información de las tarjetas de crédito de los usuarios.
 + _Atributos_:id_tarjeta, num_tarjeta, nombre_titular, fecha_caducidad, CVV.
 
+`USUARIOS_TARJETAS`  
++ indica las tarjetas asociadas a cada usuario.
++ _Atributos_:id_usuario, id_tarjeta.
+
+`PRODUCTOS`  
++ Representa los productos que se venden en la tienda.
++ _Atributos_:id_producto, nombre, descripcion, precio, stock.
 
 
+`PEDIDOS`  
++ Almacena la información de los pedidos realizados.
++ _Atributos_:id_pedido, fecha, id_direccion, id_tarjeta.
+
+`PEDIDOS_PRODUCTOS`  
++ Detalla los productos incluidos en cada pedido
++ _Atributos_:id_pedido, id_producto, unidades, precio_venta.
+___
+
+### Documentación de Tablas
+`USUARIOS`
+<div aling="center">
+    <img src="/img/usuarios.jpg">
+</div>
+___
 
 <div aling="center">
     <img src="/img/logo.png">
