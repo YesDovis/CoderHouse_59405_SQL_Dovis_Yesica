@@ -74,11 +74,17 @@ ___
 ___
 
 ### Documentación de Tablas
-`USUARIOS`
+
 <div aling="center">
-    <img src="/img/usuarios.jpg">
+    <img src="/img/PK.jpg">
+</div>
+
+<div aling="center">
+    <img src="/img/FK.jpg">
 </div>
 ___
+
+
 
 <div aling="center">
     <img src="/img/logo.png">
