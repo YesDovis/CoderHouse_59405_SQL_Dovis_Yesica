@@ -88,7 +88,7 @@ ___
 ### Análisis de las Relaciones
 
 <div aling="center">
-    <img src="/img/DiagramaDER.jpg">
+    <img src="/img/cardinalidad.jpg">
 </div>
 ___
 
