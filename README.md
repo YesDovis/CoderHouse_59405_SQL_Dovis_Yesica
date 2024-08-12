@@ -27,7 +27,7 @@ ___
 ___
 
 
-**Listado de Tablas (Entidad-Descripcion-Atributos)**
+### Listado de Tablas (Entidad-Descripcion-Atributos)
 `USUARIOS`  
 + Esta tabla almacena información básica sobre los usuarios del sistema.
 + _Atributos_: id_usuario / nombre / apellidos / fecha_nacimiento / email / password.
@@ -85,6 +85,24 @@ ___
 
 ___
 
+### Análisis de las Relaciones
+
+<div aling="center">
+    <img src="/img/DiagramaDER.jpg">
+</div>
+___
+
+`Relaciones Muchos a Muchos`
+
+Usuarios y Roles: Un usuario puede tener múltiples roles (por ejemplo, cliente y administrador) y un rol puede ser asignado a múltiples usuarios.
+Usuarios y Direcciones: Un usuario puede tener múltiples direcciones (por ejemplo, domicilio y trabajo) y una dirección puede pertenecer a múltiples usuarios (si comparten vivienda, por ejemplo).
+Usuarios y Tarjetas: Un usuario puede tener múltiples tarjetas de crédito y una tarjeta puede ser utilizada por múltiples usuarios (si comparten una cuenta).
+Pedidos y Productos: Un pedido puede contener múltiples productos y un producto puede estar en múltiples pedidos.
+
+`Relaciones Uno a Muchos`
+
+Pedidos y Direcciones: Un pedido se realiza a una sola dirección.
+Pedidos y Tarjetas: Un pedido se paga con una sola tarjeta.
 
 
 <div aling="center">
